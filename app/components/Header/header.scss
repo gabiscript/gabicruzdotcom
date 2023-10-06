@@ -1,0 +1,17 @@
+.top-page-header {
+    text-align: center;
+    padding: 124px;
+    max-width: 380px;
+    margin: 0 auto;
+    line-height: 15px;
+
+    p {
+        line-height: 25px;
+    }
+
+    @media (max-width: 800px) {
+        width: 100%;
+        padding: 20px;
+        margin-top: 150px;
+    }
+}
